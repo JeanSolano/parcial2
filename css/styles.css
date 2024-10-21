@@ -15,12 +15,11 @@ header {
   background: #007BFF;
   color: white;
   padding: 20px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   text-align: center;
 }
 
 nav {
-  background: rgb(255, 255, 255);
+  background: #fff;
   padding: 10px 0;
 }
 
@@ -50,8 +49,8 @@ main {
   padding: 20px;
 }
 
-section {
-  background: rgb(196, 189, 189);
+sec {
+  background: #c4bdbd;
   margin: 15px 0;
   padding: 20px;
   border-radius: 8px;
@@ -95,20 +94,12 @@ a:hover {
   color: #97c9ff;
 }
 
-.cuadro {
+box {
   border: 1px solid #ccc;
   border-radius: 5px;
   padding: 15px;
   margin: 15px 0;
   background-color: #f9f9f9;
-}
-
-.cuadro-comparativo {
-  margin: 20px 0;
-  padding: 15px;
-  background-color: #f9f9f9;
-  border-radius: 8px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 table {
@@ -131,26 +122,23 @@ tr:nth-child(even) {
   background-color: #f2f2f2;
 }
 
-
 img {
   max-width: 50%;
   height: auto;
   display: block;
-  position: relative;
   margin: 0 auto;
 }
 
-.cuadrícula-imagenes {
+grid-img {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 15px;
   margin: 20px 0;
 }
 
-.imagen-cuadrada {
+img-sq {
   width: 100%;
   height: auto;
   border-radius: 8px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
-
